@@ -1,2 +1,2 @@
 # vehicle-database
-Databse of vehicles, specifications, and images
+Database of vehicles, specifications, and images
