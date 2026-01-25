@@ -3,3 +3,5 @@
 Database of vehicles, specifications, and images
 
 Displays a list of cars on the main page.
+
+Under the submenus there are different types of images.
