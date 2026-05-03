@@ -1,24 +1,48 @@
 <html lang="en">
 <head>
-    <title>Vehicle Page</title>
+    <title>Vehicle Gallery</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<a href="details/zil130.html">
-    Zil 130
-    <br>
-    <img alt="Zil 130" src="images/thumbnails/zil130.png" width="350">
-</a>
-<br>
-<a href="details/uaz452.html">
-    Uaz 452
-    <br>
-    <img alt="Uaz 452" src="images/thumbnails/uaz452.png" width="350">
-</a>
-<br>
-<a href="details/gaz52.html">
-    Gaz 52
-    <br>
-    <img alt="Gaz 52" src="images/thumbnails/gaz52.png" width="350">
-</a>
+    <header>
+        <h1>Vehicle Heritage Collection</h1>
+    </header>
+
+    <div class="container">
+        <div class="gallery-grid">
+            <!-- Card 1 -->
+            <a href="details/zil130.html" class="card">
+                <div class="card-image-wrapper">
+                    <img src="images/thumbnails/zil130.png" alt="Zil 130">
+                </div>
+                <div class="card-content">
+                    <h2 class="card-title">Zil 130</h2>
+                    <span class="card-link">View Details &rarr;</span>
+                </div>
+            </a>
+
+            <!-- Card 2 -->
+            <a href="details/uaz452.html" class="card">
+                <div class="card-image-wrapper">
+                    <img src="images/thumbnails/uaz452.png" alt="Uaz 452">
+                </div>
+                <div class="card-content">
+                    <h2 class="card-title">Uaz 452</h2>
+                    <span class="card-link">View Details &rarr;</span>
+                </div>
+            </a>
+
+            <!-- Card 3 -->
+            <a href="details/gaz52.html" class="card">
+                <div class="card-image-wrapper">
+                    <img src="images/thumbnails/gaz52.png" alt="Gaz 52">
+                </div>
+                <div class="card-content">
+                    <h2 class="card-title">Gaz 52</h2>
+                    <span class="card-link">View Details &rarr;</span>
+                </div>
+            </a>
+        </div>
+    </div>
 </body>
 </html>
